@@ -1,0 +1,43 @@
+resume-optimizer/
+├── backend/
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── routes/
+│   │   │   ├── __init__.py
+│   │   │   ├── upload.py
+│   │   │   ├── analyze.py
+│   │   │   ├── optimize.py
+│   │   │   └── automate.py
+│   │   └── services/
+│   │       ├── __init__.py
+│   │       ├── pdf_extractor.py
+│   │       ├── ai_analyzer.py
+│   │       ├── cv_optimizer.py
+│   │       └── job_automation.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   └── config.py
+│   └── main.py
+├── automation/
+│   ├── __init__.py
+│   ├── drivers/
+│   │   ├── __init__.py
+│   │   ├── base_driver.py
+│   │   ├── gupy_driver.py
+│   │   ├── catho_driver.py
+│   │   └── linkedin_driver.py
+│   └── core/
+│       ├── __init__.py
+│       ├── browser_manager.py
+│       ├── form_filler.py
+│       └── stealth.py
+├── frontend/
+│   ├── __init__.py
+│   └── app.py
+├── data/
+│   └── uploads/
+├── output/
+├── requirements.txt
+├── setup.py
+├── build.py
+└── ResumeOptimizer.exe (será gerado)
